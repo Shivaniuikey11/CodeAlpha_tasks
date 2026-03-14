@@ -1,0 +1,31 @@
+Task 1 html 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h2>My Image Gallery</h2>
+<div class="gallery">
+<img src="https://picsum.photos/id/1015/400/300" onclick="openImage(this)">
+<img src="https://picsum.photos/id/1016/400/300" onclick="openImage(this)">
+<img src="https://picsum.photos/id/1018/400/300" onclick="openImage(this)">
+<img src="https://picsum.photos/id/1020/400/300" onclick="openImage(this)">
+<img src="https://picsum.photos/id/1024/400/300" onclick="openImage(this)">
+<img src="https://picsum.photos/id/1025/400/300" onclick="openImage(this)">
+
+</div>
+<div class="lightbox" id="lightbox">
+<span onclick="closeImage()">Close</span>
+<br>
+<img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
